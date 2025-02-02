@@ -4,17 +4,17 @@ This repository demonstrates how to use Mokapi in GitHub Actions to test a Node.
 
 ## 🚀 Run Locally
 
-1. Make sure you have Node.js installed. Then, run:
+### 1. Make sure you have Node.js installed. Then, run:
 
 ```bash
 npm install
 ```
 
-2. Install Mokapi
+### 2. Install Mokapi
 
 Follow the installation guide at https://mokapi.io/docs/guides/get-started/installation
 
-3. Run Mokapi
+### 3. Run Mokapi
 
 Option 1: Run Mokapi Directly
 ```bash
@@ -26,7 +26,7 @@ Option 2: Run Mokapi with Docker
 docker run -d --rm --name mokapi -p 80:80 -p 8080:8080 -v $(pwd)/mocks:/etc/mokapi/configs --env MOKAPI_PROVIDERS_FILE_DIRECTORY=/etc/mokapi/configs mokapi/mokapi:latest
 ```
 
-4. Run Tests
+### 4. Run Tests
 Once Mokapi is running, execute the tests:
 ```bash
 npm test
