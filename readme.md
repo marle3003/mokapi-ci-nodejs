@@ -18,7 +18,7 @@ Follow the installation guide at https://mokapi.io/docs/guides/get-started/insta
 
 Option 1: Run Mokapi Directly
 ```bash
-mokapi --providers-file-directory mocks
+mokapi mocks
 ```
 
 Option 2: Run Mokapi with Docker
